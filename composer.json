@@ -1,8 +1,18 @@
 {
     "name": "timush/factorial",
-    "description": "This is class for get factorial value",
+    "description": "factorial",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Timush\\Factorial\\": "./"
+        }
+    },
     "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.*"
-    }
+    },
+    "authors": [
+        {
+            "name": "Andrey Timush",
+            "email": "andrikshumit@gmail.com"
+        }
+    ]
 }

@@ -1,10 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Timush\Factorial;
+
 class Factorial
 {
     private $var = 1;
     public function __construct($var = 1) {
-        echo "this is construct Factorial<br>";
+        echo "this is construct Factorial";
         $this->var = $var;
     }
     
