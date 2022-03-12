@@ -1,0 +1,8 @@
+{
+    "name": "timush/factorial",
+    "description": "This is class for get factorial value",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    }
+}
